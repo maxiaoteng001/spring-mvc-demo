@@ -33,6 +33,12 @@
 		
 		<br><br>
 		
+		Linux <form:checkbox path="operateSystems" value="Linux"/>
+		
+		Mac OS<form:checkbox path="operateSystems" value="Mac os"/>
+		
+		MS Windows<form:checkbox path="operateSystems" value="MS Windows"/>
+		
 		<input type="submit" value="confirm" />
 	
 	</form:form>
